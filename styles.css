@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    background-image: linear-gradient(
+      114deg,
+      #f0f0f0 0%,
+      #fbc2c2 46%,
+      #ffebc6 100%
+    );
+  }
+  body header nav ul {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    background-color: #046d61;
+    padding: 1.5em;
+    color: white;
+  }
+  
+  .title-icon {
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3em;
+    background-color: teal;
+    margin: 5em;
+    border-radius: 2em;
+    color: indianred;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/953/692/small/abstract-colourful-watercolour-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 13em;
+  }
+  
+  .title-icon img {
+    width: 5em;
+    height: 5em;
+    margin-right: 0.5em;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://st2.depositphotos.com/30440304/47026/i/450/depositphotos_470267958-stock-photo-modern-brush-strokes-painting-soft.jpg);
+    padding: 2rem;
+  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 1rem;
+    color: indianred;
+    margin: 1rem;
+    margin-bottom: 5rem;
+  }
+  
+  main h2 {
+    margin: 2rem;
+  }
+  
+  main p {
+    margin: 2rem;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    background-color: #046d61;
+    padding: 2rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .main-gallery {
+    background-image: none;
+  }
+  
+  .pic {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://st2.depositphotos.com/30440304/47026/i/450/depositphotos_470267958-stock-photo-modern-brush-strokes-painting-soft.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 10px 5px 5px cadetblue;
+  }
+  
+  .pic h3 {
+    display: flex;
+    margin: auto;
+  }
+  
+  img {
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .textpic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+  }
+  a:hover {
+    color: rgb(159, 127, 199);
+  }
+  
+  .home-main {
+    box-shadow: 10px 5px 5px cadetblue;
+  }
+  
